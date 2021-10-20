@@ -14,6 +14,9 @@ public class Country {
 	
 	@Column(name="name") 
 	private String name; 
+	public Country() {
+		
+	}
 	
 	public Country(String code, String name) {
 		this.code = code;
